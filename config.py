@@ -20,7 +20,33 @@ TARGET_DB = os.getenv("TARGET_DB")
 #       {"name": "orders", "timestamp_field": "updatedAt"},
 #   ]
 COLLECTIONS = [
-    "shopify_carts"
+    "marketing_promoters",
+    "quadrants",
+    "echallan_searches",
+    "bundles_website",
+    "paymentStates",
+    "echallan_waitlist",
+    "campaignVisit",
+    "society_orders",
+    "hooraPointUsage",
+    "hooraBlackSubscriptions",
+    "partnerWeeklyPerformance",
+    "userMonthlyPackagesSubscription",
+    "qrConnectOrders",
+    "pms_payments",
+    "qrconnect",
+    "sales_leads",
+    "rsaMemberships",
+    "rakhiEnvelopeDistribution",
+    "partnerDailyConsumableInventory",
+    "partnerPaymentTransactions",
+    "partners_gt_30_booking",
+    "partners_less30_booking",
+    "sales_users",
+    "hooraPartnerManagerDiscount",
+    "bookingLog",
+    "society_requests",
+    "shopify_carts",
 ]
 
 # Schedule interval in minutes (default: 15 minutes)
